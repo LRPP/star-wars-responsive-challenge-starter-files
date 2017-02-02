@@ -1,0 +1,11 @@
+.row {
+    display: flex;
+}
+
+.col-xs {
+    
+}
+
+.card {
+    border: 1px solid lightgrey;
+}
