@@ -15,40 +15,74 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
     <!-- Stylesheets -->
+    <link rel="stylesheet" href="flexboxgrid.css" type="text/css">
     <link rel="stylesheet" href="styles.css" type="text/css">
+
 </head>
 
 <body>
-    <header>
-        <h1>Star Wars Characters</h1>
-        <p>Incomplete List</p>
+    <header class="row">
+        <div class="col-xs header">
+            <h1>Star Wars Characters</h1>
+            <p>Incomplete List</p>
+        </div>
     </header>
     <main>
-        <div class="card">
-            <img src="images/chewbacca_square.png" alt="Chewbacca">
-            <h3>Chewbacca</h3>
-            <p>A great first mate</p>
-        </div>
-
-        <div class="card"><img src="images/finn_square.png" alt="Finn">
-            <h3>Finn</h3>
-            <p>Strom Trooper/p>
-        </div>
-        <div class="card"><img src="images/kylo_square.png" alt="Kylo">
-            <h3>Kylo</h3>
-            <p>Villain?</p>
-        </div>
-        <div class="card"><img src="images/poe_square.png" alt="Poe">
-            <h3>Poe</h3>
-            <p>Pilot</p>
-        </div>
-        <div class="card"><img src="images/rey_square.png" alt="Rey">
-            <h3>Rey</h3>
-            <p>progagonist</p>
-        </div>
-        <div class="card"><img src="images/yoda_square.png" alt="Yoda">
-            <h3>Yoda</h3>
-            <p>Jedi master</p>
+        <div class="row center-xs">
+            <div class="card col-xs-4">
+                <img src="images/chewbacca_square.png" alt="Chewbacca">
+                <div class="row start-xs">
+                    <div class="col-xs cardtext">
+                        <h3>Chewbacca</h3>
+                        <p>A great first mate</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-xs-4">
+                <img src="images/finn_square.png" alt="Finn">
+                <div class="row start-xs">
+                    <div class="col-xs cardtext">
+                        <h3>Finn</h3>
+                        <p>former Strom Trooper</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-xs-4">
+                <img src="images/kylo_square.png" alt="Kylo">
+                <div class="row start-xs">
+                    <div class="col-xs cardtext">
+                        <h3>Kylo</h3>
+                        <p>Darth Vader wanna be</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-xs-4">
+                <img src="images/poe_square.png" alt="Poe">
+                <div class="row start-xs">
+                    <div class="col-xs cardtext">
+                        <h3>Poe</h3>
+                        <p>Resistance Pilot</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-xs-4">
+                <img src="images/rey_square.png" alt="Rey">
+                <div class="row start-xs">
+                    <div class="col-xs cardtext">
+                        <h3>Rey</h3>
+                        <p>all around badass chick</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-xs-4">
+                <img src="images/yoda_square.png" alt="Yoda">
+                <div class="row start-xs">
+                    <div class="col-xs cardtext">
+                        <h3>Yoda</h3>
+                        <p>Jedi master</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 </body>

@@ -47,6 +47,13 @@
     max-width: 100%;
 }
 
+.col-xs-4 {
+    -ms-flex-preferred-size: 33.333%;
+    -webkit-flex-basis: 33.333%;
+    flex-basis: 33.333%;
+    max-width: 33.333%;
+}
+
 .start-xs {
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
